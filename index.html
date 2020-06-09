@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./node_modules/popups/css/popupS.css">
+
+
+    <link rel="stylesheet" type="text/css" href="./sheet2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Dump</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div id="display" class="DISPLAY navitem">
+            <a onclick="data()"><img class="imageClass" src="./view-files.svg"></a>
+        </div>
+        <div class="navitem"type="submit" ><a onclick="subb()"><img class="imageClass" src="./submit.svg"></a></div>
+        <div class="navitem"><img class="imageClass" src="./about.svg"></div>
+    </div>
+    <div class="containerContent">
+        <div class="INPUT">
+            <div class="checkers">
+                <div>
+                <label class="label" for="add" style="word-wrap: break-word;">
+                    ADD<input id="add" class="checkbox" type="checkbox"></input>
+                </label>
+            </div>
+                <br>
+                <div>
+                <label class="label" for="remove" style="word-wrap: break-word;">
+                    REMOVE<input id="remove"class="checkbox"  type="checkbox"></input>
+                </label>
+            </div>
+                <br>
+            </div>
+            <div class="checkers">
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="container">
+                <form action="/action_page.php">
+                  <input type="text" id="titleBook" name="firstname" placeholder="Title | Shoe Dog">
+              
+                  
+                  <input type="text" id="author" name="lastname" placeholder="Author | Phil Knight">
+            
+                  <textarea id="bookNote" name="subject" placeholder="Add a note..." style="height:200px"></textarea>
+                </form>
+              </div>
+            <br>
+
+            
+        
+    </div>
+    </div>
+    
+    <div id="prompt"></div>
+    <!-- <input id="live" type="text" oninput="live()"> -->
+    <script src='./popupS.js'></script>
+    <script src='./client.js'>
+        
+    </script>
+</body>
+
+</html>

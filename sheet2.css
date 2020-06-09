@@ -1,0 +1,86 @@
+body,html{
+    font-family: 'Circular Std Book';
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    height: 108px;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    background: #FFCF0C;
+}
+.navitem{
+    display: block;
+    float: left;
+    padding: 8px;
+    margin-left: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 28%;
+    cursor: pointer;
+}
+.containerContent{
+    width: 100%;
+    height: calc( 100% - 108px);
+    padding: 64px;
+    box-sizing: border-box;
+}
+.checkers{
+    
+    font-size: 32pt;
+}
+input[type=checkbox] {
+    vertical-align: middle;
+    float: right;
+  }
+.label {
+    display: block;
+  }
+.checkbox{
+    scale: 2;
+}
+.imageClass{
+    height: 64px
+}
+.inputs{
+    display: block;
+    height: 25%;
+    width: 72%;
+    align-content: center;
+    text-align: center;
+    margin-top: 12px;
+    box-sizing: border-box;
+    clear: both;
+    margin: 0 auto;
+}
+.inputItem{
+    scale: 1.6;
+}
+.spacer{
+    width: 100%;
+    height: 1px;
+    margin-top: 32px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
