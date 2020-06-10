@@ -2,7 +2,7 @@ body,html{
     margin: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
 }
 body{
     font-family: 'Balsamiq Sans', cursive;
@@ -19,10 +19,6 @@ body{
     margin: 0 auto;
     text-align: center;
     background: #626f78;
-}
-.containerContent{
-    height: calc( 100% - 108px);
-    box-sizing: border-box;
 }
 .checkers{
     margin: 0 auto;
@@ -62,12 +58,12 @@ textarea:focus{
     background-color: #f2f2f2;
     padding: 20px;
 }
-.main-header{
-    font-size: 3.5rem;
+#main-header{
+    font-size: 3rem;
 }
-.label{
+.choice{
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #626f78;
